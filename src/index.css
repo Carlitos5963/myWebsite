@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(211, 211, 211, 0.5);
+  box-shadow:20px 0px 50px grey, -20px 0px 50px grey;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* If the screen is below 720 pixels wide, then fill in the margins */
+@media only screen and (max-width: 720px){
+  html{
+      margin: 0%;
+  }
+}
+
+#navbar-Nav{
+  display: flex;
+  justify-content: flex-end;
 }
