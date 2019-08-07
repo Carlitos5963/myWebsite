@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <body className="App-body">
+      <body className="App-body tc">
         <CardList content={Content}/>
       </body>
     </div>
