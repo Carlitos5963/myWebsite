@@ -2,15 +2,15 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Carlitos5963.github.io/portfolio",
+  "homepage": "http://Carlitos5963.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "lodash": "^4.17.15",
     "lodash.template": ">=4.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "tachyons": "^4.11.1",
-    "upgrade": "^1.1.0"
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^2.0.1"
   }
 }
