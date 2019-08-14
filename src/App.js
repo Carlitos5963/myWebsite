@@ -4,7 +4,7 @@ import CardList from './CardList';
 import Content from './Content';
 
 import 'tachyons';
-import FooterPage from '../components/Footer';
+import FooterPage from './components/Footer';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <body className="App-body tc pa2">
+      <body className="App-body tc pa2 bg-black white">
         <CardList content={Content}/>
       </body>
       <FooterPage/>

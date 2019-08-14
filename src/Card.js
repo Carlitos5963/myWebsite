@@ -20,7 +20,7 @@ const Card = ({ id, section, header, date, body, img, links }) => {
     if(links.length <= 3)
         linkCom = '';
     else
-        linkCom = <a href={links}>For More Information</a>
+        linkCom = <a href={links} target='_blank' rel="noopener noreferrer">For More Information</a>
 
     return(
         <div className='flex items-center tc bg-light-green dib br3 pa3 ma2 grow shadow-5 bw2' style={cardStyle}>

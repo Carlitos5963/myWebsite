@@ -4,6 +4,9 @@ html{
   background-color: rgba(211, 211, 211, 0.5);
   box-shadow:20px 0px 50px grey, -20px 0px 50px grey;
 }
+#root{
+  background-color: black;
+}
 
 #CardImage{
   width: 25%;
