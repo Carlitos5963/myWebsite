@@ -1,0 +1,2 @@
+html{margin-left:5%;margin-right:5%;background-color:hsla(0,0%,82.7%,.5);box-shadow:20px 0 50px grey,-20px 0 50px grey}#root{background-color:#000}#CardImage{width:25%}#CardBody{width:50%}#CardDate{width:25%}@media only screen and (max-width:720px){html{margin:0}#CardImage{width:40%}#CardBody{width:60%}#CardDate{display:none}}#navbar-Nav{display:flex;justify-content:flex-end}
+/*# sourceMappingURL=main.12c6c3e0.chunk.css.map */
