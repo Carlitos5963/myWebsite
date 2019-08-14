@@ -1,5 +1,6 @@
 import React from "react";
 import 'tachyons';
+import './index.css';
 
 const cardStyle = {
     width: '99%',
@@ -23,13 +24,13 @@ const Card = ({ id, section, header, date, body, img, links }) => {
 
     return(
         <div className='flex items-center tc bg-light-green dib br3 pa3 ma2 grow shadow-5 bw2' style={cardStyle}>
-            <img className='w-25 ma10' src={img} alt="Loading..."></img>
-            <div className='w-50' style={textStyle}>
+            <img id='CardImage' className='ma10' src={img} alt="Loading..."></img>
+            <div className='' id='CardBody' style={textStyle}>
                 <h2>{header}</h2>    
                 <p className='tl pa3'>{body}</p>
                 {linkCom}
             </div>
-            <h4 className='w-25'>{date}</h4>
+            <h4 className='' id='CardDate'>{date}</h4>
         </div>
     );
 }

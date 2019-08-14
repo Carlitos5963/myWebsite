@@ -7,18 +7,21 @@
     "bootstrap": "^4.3.1",
     "lodash": "^4.17.15",
     "lodash.template": ">=4.5.0",
+    "mdbreact": "^4.19.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^4.4.0-beta.8",
     "react-scripts": "3.0.1",
+    "react-scrollable-anchor": "^0.6.1",
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

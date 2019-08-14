@@ -29,19 +29,21 @@ const CardList = ( {content} ) => {
             case "experience":
                 expArray.push(CardArray[i]);
                 break;
+            default:
+                console.log("This doesn't belong anywhere, add more info to Content.js");
         }
     }
 
     //Return organized sections of cards based on their section
     return (
         <div>
-            <h2 id='about' name="aboAnchor">About Me</h2>
+            <h2 id='about'>About Me</h2>
             {aboArray}
-            <h2 id='education' name="eduAnchor">Education</h2>
+            <h2 id='education'>Education</h2>
             {eduArray}
-            <h2 id='projects' name="proAnchor">Projects</h2>
+            <h2 id='projects'>Projects</h2>
             {proArray}
-            <h2 id='experience' name="expAnchor">Experience</h2>
+            <h2 id='experience'>Experience</h2>
             {expArray}
         </div>
     );

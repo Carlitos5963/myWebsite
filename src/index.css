@@ -5,10 +5,30 @@ html{
   box-shadow:20px 0px 50px grey, -20px 0px 50px grey;
 }
 
+#CardImage{
+  width: 25%;
+}
+#CardBody{
+  width: 50%;
+}
+#CardDate{
+  width: 25%;
+}
+
 /* If the screen is below 720 pixels wide, then fill in the margins */
+/* Will also cute the dates off the cards if the screen size is too small */
 @media only screen and (max-width: 720px){
   html{
       margin: 0%;
+  }
+  #CardImage{
+    width: 40%;
+  }
+  #CardBody{
+    width: 60%;
+  }
+  #CardDate{
+    display: none;
   }
 }
 
